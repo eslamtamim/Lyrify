@@ -13,11 +13,11 @@ it just changes the color of the background of the lyrics page to the color of t
 so this is how the normal lyrics page look like 'Lame' ugh
 <img src="/imgs/Without-Extention.jpg" alt="a pic of the lyrics page on spotify without the extention enabled" width="559" height="468">
 
-now the more fun version ✨
+Now the more fun version ✨
 
 <img src="/imgs/With-Extention.jpg" alt="a pic of the lyrics page on spotify with the extention enabled" width="559" height="468">
 
-even more fun thing u can d with it is to just get rid of the Font-Family and it will even look better like this
+Even more fun thing you can do with it is to just get rid of the Font-Family and it will even look better like this
 
 <img src="/imgs/With-Extention&WIthout-the-Font.jpg" alt="a pic of the lyrics page on spotify with the extention enabled and without the Font-Family" width="559" height="468">
 
