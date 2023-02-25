@@ -36,12 +36,12 @@ So, i run to the 'He Who Knows' - `chatGPT` - to help me with this and as usual 
 
 I know some Js and i had the logic in my mind, of course i didn't just make him do everything so i gave him the logic and everything I know and he helped me writing the `manifest.json` which is the Config file for the extention to run. 
 
-After that i wrote the js logic and tested it in the console of the Spotify lyrics page and it WORKED.
-but oc it just works for the first time but i needed it to work everytime i open up the lyrics page
+After that i wrote the js logic int the `script.js` and tested it in the console of the Spotify lyrics page and it WORKED.
+but of course it just works for the first time and i needed it to work everytime i open up the lyrics page.
 
-So, finally here comes the real work of `chatGPT`, i just asked him to make the code work everytime the page renders something and not just on reload
+So, finally here comes the real work of `chatGPT`, i just asked him to make the code work everytime the page renders something and not just on reload.
 
-and he did send me this block of code
+And he did send me this block of code
 
 ```javascript
 // Watch for changes to the DOM tree using a MutationObserver
@@ -59,12 +59,14 @@ var observer = new MutationObserver(function(mutations) {
 var targetNode = document.body;
 observer.observe(targetNode, { childList: true, subtree: true });
 ```
-do i understand any of that ? absolutely not but chatGPT said it works so it should work, right ?
+Do i understand any of that ? absolutely not but chatGPT said it works so it should work, right ?
 
 YES it actually works, i just pasted it and it works, im not really intersted on knowing how but i asked him to explain to put it here is any one want to know more about js.
 
 ```chatGPT
-This code creates a MutationObserver object, which is used to watch for changes to the DOM tree. The MutationObserver constructor takes a callback function as its argument, which will be called whenever a change is detected in the DOM tree.
+This code creates a MutationObserver object, which is used to watch for changes to the DOM tree.
+The MutationObserver constructor takes a callback function as its argument,
+which will be called whenever a change is detected in the DOM tree.
 
 In this case, the callback function is checking each mutation for added or removed nodes.
 If a node was added, it runs the changeBackgroundColor() function.
