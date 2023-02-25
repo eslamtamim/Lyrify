@@ -10,7 +10,7 @@ this is simply just a Js script that changes some Css propirties to make the Lyr
 so what does it do ? 
 it just changes the color of the background of the lyrics page to the color of the inactive lyrics so it makes them disappear - magic ✨✨ - 
 
-<img src="/imgs/Without-Extention.jpg" alt="a pic of the lyrics page on spotify without the extention enabled" width="500" height="300">
+<img src="/imgs/Without-Extention.jpg" alt="a pic of the lyrics page on spotify without the extention enabled" width="559" height="468">
 
 
 ## Why? 
