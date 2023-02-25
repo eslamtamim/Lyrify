@@ -43,7 +43,6 @@ So, finally here comes the real work of chatGPT, i just asked him to make the co
 and he did send me this block of code
 
 ```javascript
-
 // Watch for changes to the DOM tree using a MutationObserver
 var observer = new MutationObserver(function(mutations) {
     // Check each mutation for added or removed nodes
@@ -58,6 +57,18 @@ var observer = new MutationObserver(function(mutations) {
 // Start observing the target node for changes
 var targetNode = document.body;
 observer.observe(targetNode, { childList: true, subtree: true });
+```
+do i understand any of that ? absolutely not but chatGPT said it works so it should work, right ?
+
+YES it actually works, i just pasted it and it works, im not really intersted on knowing how but i asked him to explain to put it here is any one want to know more about js.
+
+```chatGPT
+This code creates a MutationObserver object, which is used to watch for changes to the DOM tree. The MutationObserver constructor takes a callback function as its argument, which will be called whenever a change is detected in the DOM tree.
+
+In this case, the callback function is checking each mutation for added or removed nodes. If a node was added, it runs the changeBackgroundColor() function.
+
+The MutationObserver object then starts observing the targetNode, which is set to document.body. The childList option is set to true, which means that the observer will look for changes to the child nodes of the target node (i.e., new nodes being added or removed). The subtree option is also set to true, which means that the observer will look for changes to all descendant nodes of the target node, not just its immediate children.
+```
 
 
 
