@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Lyrify",
+    "description": "Make the lyrics of the song you are listening not to appear unless it's time to.",
+    "version": "1.0",
+
+    "icons": {
+        "16": "imgs/icon-16.png",
+        "32": "imgs/icon-32.png",
+        "48": "imgs/icon-48.png",
+        "128": "imgs/icon-128.png"
+    },
+
+    "content_scripts": [{
+        "js": ["script.js"],
+        "matches": [
+            "https://open.spotify.com/lyrics"
+        ]
+    }],
+
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs"
+    ]
+}
