@@ -64,14 +64,14 @@ Do i understand any of that ? absolutely not but chatGPT said it works so it sho
 YES it actually works, i just pasted it and it works, im not really intersted on knowing how but i asked him to explain to put it here is any one want to know more about js.
 
 ```chatGPT
-This code creates a MutationObserver object, which is used to watch for changes to the DOM tree.
-The MutationObserver constructor takes a callback function as its argument,
+This code creates a `MutationObserver` object, which is used to watch for changes to the DOM tree.
+The `MutationObserver` constructor takes a callback function as its argument,
 which will be called whenever a change is detected in the DOM tree.
 
 In this case, the callback function is checking each mutation for added or removed nodes.
 If a node was added, it runs the `changeBackgroundColor()` function.
 
-The MutationObserver object then starts observing the targetNode, which is set to document.body.
+The `MutationObserver` object then starts observing the targetNode, which is set to `document.body`.
 The childList option is set to true, which means that the observer will look for changes
 to the child nodes of the target node (i.e., new nodes being added or removed).
 The subtree option is also set to true, 
