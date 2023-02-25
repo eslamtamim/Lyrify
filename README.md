@@ -15,7 +15,7 @@ so this is how the normal lyrics page look like 'Lame' ugh
 
 now the more fun version ✨
 
-<img src="/imgs/With Extention" alt="a pic of the lyrics page on spotify with the extention enabled" width="559" height="468">
+<img src="/imgs/With-Extention.jpg" alt="a pic of the lyrics page on spotify with the extention enabled" width="559" height="468">
 
 ## Why? 
 First as i said it's more fun.
