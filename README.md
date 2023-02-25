@@ -7,10 +7,11 @@ Make the lyrics of the song you are listening not to appear unless it's time to.
 this is simply just a Js script that changes some Css propirties to make the Lyrics page on Spotify more fun.
 -- atleast for me -
 
-so what does it do ? 
-it just changes the color of the background of the lyrics page to the color of the inactive lyrics so it makes them disappear - magic ✨✨ - 
+So what does it do ? 
+t just changes the color of the background of the lyrics page to the color of the inactive lyrics so it makes them disappear - magic ✨✨ - 
 
-so this is how the normal lyrics page look like 'Lame' ugh
+So this is how the normal lyrics page look like 'Lame' ugh
+
 <img src="/imgs/Without-Extention.jpg" alt="a pic of the lyrics page on spotify without the extention enabled" width="559" height="468">
 
 Now the more fun version ✨
@@ -24,7 +25,39 @@ Even more fun thing you can do with it is to just get rid of the Font-Family and
 
 
 ## Why? 
-First as i said it's more fun.
-Secend I always wanted to know how Web Extentions work and always full of ideas to make the webapps better and more fun so i finally started this this simple script on one of my most places i visit (Spotify).
+as i said it's more fun.
+
+I always wanted to know how Web Extentions work and always full of ideas to make the websites i use better and more fun so i finally started this with a simple script on one of my most places i visit (Spotify).
 
 ## How?
+at first i didn't know anything on how to make then, the only thing i know is there is JS in the making of the extention and a side note to whoever reading this, IHATE JS.
+
+So, i run to the he who knows - chatGPT - to help me with this and as usual it's incrideble how much time he saves us. 
+I know some js and i had the logic in my mind of course i didn't just make him do everything so i gave him the logic and everything i know and he helped writing the 'manifest.json' which is the Config file for the extention to run. 
+
+After that i wrote the js logic and tested it in the console of the Spotify lyrics page and it WORKED.
+but oc it just works for the first time but i needed it to work everytime i open up the lyrics page
+
+So, finally here comes the real work of chatGPT, i just asked him to make the code work everything the page renders something and not just on reload
+
+and he did send me this block of code
+
+```javascript
+
+// Watch for changes to the DOM tree using a MutationObserver
+var observer = new MutationObserver(function(mutations) {
+    // Check each mutation for added or removed nodes
+    mutations.forEach(function(mutation) {
+        if (mutation.type === 'childList' && mutation.addedNodes.length) {
+            // If a node was added, run the script to change the background color
+            changeBackgroundColor();
+        }
+    });
+});
+
+// Start observing the target node for changes
+var targetNode = document.body;
+observer.observe(targetNode, { childList: true, subtree: true });
+
+
+
