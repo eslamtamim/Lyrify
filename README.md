@@ -59,7 +59,7 @@ var observer = new MutationObserver(function(mutations) {
 var targetNode = document.body;
 observer.observe(targetNode, { childList: true, subtree: true });
 ```
-Do i understand any of that ? absolutely not but chatGPT said it works so it should work, right ?
+Do i understand any of that ? well, not really but whatever chatGPT said it works so it should work, right ?
 
 YES it actually works, i just pasted it and it works, im not really intersted on knowing how but i asked him to explain to put it here if anyone wants to know more about Js.
 
