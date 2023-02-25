@@ -61,7 +61,7 @@ observer.observe(targetNode, { childList: true, subtree: true });
 ```
 Do i understand any of that ? absolutely not but chatGPT said it works so it should work, right ?
 
-YES it actually works, i just pasted it and it works, im not really intersted on knowing how but i asked him to explain to put it here is any one want to know more about js.
+YES it actually works, i just pasted it and it works, im not really intersted on knowing how but i asked him to explain to put it here if anyone wants to know more about Js.
 
 ```chatGPT
 This code creates a `MutationObserver` object, which is used to watch for changes to the DOM tree.
@@ -78,6 +78,9 @@ The subtree option is also set to true,
 which means that the observer will look for changes to all descendant nodes of the target node,
 not just its immediate children.
 ```
+## Finally
+this was just a fun thing i did out of curiosity and I won't publish it so if u want to use it just clone it and use it.
+and if you want to remove the font of the lyrics just uncomment line 25 on the `script.js` file and you are good to go.
 
 
 
