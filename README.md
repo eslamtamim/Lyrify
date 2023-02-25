@@ -30,15 +30,16 @@ as i said it's more fun.
 I always wanted to know how Web Extentions work and always full of ideas to make the websites i use better and more fun so i finally started this with a simple script on one of my most places i visit (Spotify).
 
 ## How?
-at first i didn't know anything on how to make then, the only thing i know is there is JS in the making of the extention and a side note to whoever reading this, IHATE JS.
+at first i didn't know anything on how to make a web ectention, the only thing i know is there is JS in the making of the extention and a side note to whoever reading this, I HATE JS.
 
-So, i run to the he who knows - chatGPT - to help me with this and as usual it's incrideble how much time he saves us. 
-I know some js and i had the logic in my mind of course i didn't just make him do everything so i gave him the logic and everything i know and he helped writing the 'manifest.json' which is the Config file for the extention to run. 
+So, i run to the 'He Who Knows' - `chatGPT` - to help me with this and as usual it's incredible how much time he saves us. 
+
+I know some Js and i had the logic in my mind, of course i didn't just make him do everything so i gave him the logic and everything I know and he helped me writing the `manifest.json` which is the Config file for the extention to run. 
 
 After that i wrote the js logic and tested it in the console of the Spotify lyrics page and it WORKED.
 but oc it just works for the first time but i needed it to work everytime i open up the lyrics page
 
-So, finally here comes the real work of chatGPT, i just asked him to make the code work everything the page renders something and not just on reload
+So, finally here comes the real work of `chatGPT`, i just asked him to make the code work everytime the page renders something and not just on reload
 
 and he did send me this block of code
 
@@ -65,9 +66,15 @@ YES it actually works, i just pasted it and it works, im not really intersted on
 ```chatGPT
 This code creates a MutationObserver object, which is used to watch for changes to the DOM tree. The MutationObserver constructor takes a callback function as its argument, which will be called whenever a change is detected in the DOM tree.
 
-In this case, the callback function is checking each mutation for added or removed nodes. If a node was added, it runs the changeBackgroundColor() function.
+In this case, the callback function is checking each mutation for added or removed nodes.
+If a node was added, it runs the changeBackgroundColor() function.
 
-The MutationObserver object then starts observing the targetNode, which is set to document.body. The childList option is set to true, which means that the observer will look for changes to the child nodes of the target node (i.e., new nodes being added or removed). The subtree option is also set to true, which means that the observer will look for changes to all descendant nodes of the target node, not just its immediate children.
+The MutationObserver object then starts observing the targetNode, which is set to document.body.
+The childList option is set to true, which means that the observer will look for changes
+to the child nodes of the target node (i.e., new nodes being added or removed).
+The subtree option is also set to true, 
+which means that the observer will look for changes to all descendant nodes of the target node,
+not just its immediate children.
 ```
 
 
