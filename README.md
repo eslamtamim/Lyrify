@@ -36,7 +36,7 @@ So, i run to the 'He Who Knows' - `chatGPT` - to help me with this and as usual 
 
 I know some Js and i had the logic in my mind, of course i didn't just make him do everything so i gave him the logic and everything I know and he helped me writing the `manifest.json` which is the Config file for the extention to run. 
 
-After that i wrote the js logic int the `script.js` and tested it in the console of the Spotify lyrics page and it WORKED.
+After that i wrote the js logic in the `script.js` and tested it in the console of the Spotify lyrics page and it WORKED.
 but of course it just works for the first time and i needed it to work everytime i open up the lyrics page.
 
 So, finally here comes the real work of `chatGPT`, i just asked him to make the code work everytime the page renders something and not just on reload.
