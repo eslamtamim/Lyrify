@@ -18,7 +18,7 @@ Now the more fun version ✨
 
 <img src="/imgs/With-Extention.jpg" alt="a pic of the lyrics page on spotify with the extention enabled" width="559" height="468">
 
-Even more fun thing you can do with it is to just get rid of the Font-Family and it will even look better like this
+Even more fun thing you can do with it is to just [get rid of](https://github.com/Eslamtamim/Lyrify#finally) the Font-Family and it will even look better like this
 
 <img src="/imgs/With-Extention&WIthout-the-Font.jpg" alt="a pic of the lyrics page on spotify with the extention enabled and without the Font-Family" width="559" height="468">
 
