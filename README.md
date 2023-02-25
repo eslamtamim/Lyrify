@@ -69,7 +69,7 @@ The MutationObserver constructor takes a callback function as its argument,
 which will be called whenever a change is detected in the DOM tree.
 
 In this case, the callback function is checking each mutation for added or removed nodes.
-If a node was added, it runs the changeBackgroundColor() function.
+If a node was added, it runs the `changeBackgroundColor()` function.
 
 The MutationObserver object then starts observing the targetNode, which is set to document.body.
 The childList option is set to true, which means that the observer will look for changes
