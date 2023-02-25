@@ -5,11 +5,12 @@ Make the lyrics of the song you are listening not to appear unless it's time to.
 
 ## First, What?
 this is simply just a Js script that changes some Css propirties to make the Lyrics page on Spotify more fun.
-\- atleast for me -
+-- atleast for me -
 
 so what does it do ? 
 it just changes the color of the background of the lyrics page to the color of the inactive lyrics so it makes them disappear - magic ✨✨ - 
 
+![a pic of the lyrics page on spotify without the extention enabled](imgs/Without%20Extention.jpg "The "Lame" old lyrics page without the script)
 
 ## Why? 
 First as i said it's more fun.
