@@ -80,9 +80,7 @@ not just its immediate children.
 ```
 ## Finally
 this was just a fun thing i did out of curiosity and I won't publish it because to make a google dev acc u need 5$ and i've it but whatever i can spend them on somehing better so if u want to use it just clone it and use it.
-and if you want to remove the font of the lyrics just uncomment line 25 on the `script.js` file and you are good to go.
+and if you want to remove the font of the lyrics just uncomment line 34 on the `script.js` file and you are good to go.
 
 ```javascript
-    targetElement.style.fontFamily = 'none';
-    ```
-        
+    targetElement.style.fontFamily = 'none'; 
