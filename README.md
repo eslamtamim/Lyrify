@@ -83,4 +83,4 @@ this was just a fun thing i did out of curiosity and I won't publish it because 
 and if you want to remove the font of the lyrics just uncomment line 34 on the `script.js` file and you are good to go.
 
 ```javascript
-    targetElement.style.fontFamily = 'none'; 
+targetElement.style.fontFamily = 'none'; 
