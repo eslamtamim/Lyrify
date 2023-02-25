@@ -1,11 +1,16 @@
 // Function to change the background color of the target element
 function changeBackgroundColor() {
-    try {
 
+
+    try {
         // Find the element you want to change the background color of 
         var targetElement = document.querySelector('.tr8V5eHsUaIkOYVw7eSG');
 
-        // Get the messaging color from the div element
+        // Get all the colors from the div element
+        var activeColor = getComputedStyle(targetElement).getPropertyValue('--lyrics-color-active');
+        var inactiveColor = getComputedStyle(targetElement).getPropertyValue('--lyrics-color-inactive');
+        var passedColor = getComputedStyle(targetElement).getPropertyValue('--lyrics-color-passed');
+        var backgroundColor = getComputedStyle(targetElement).getPropertyValue('--lyrics-color-background');
         var messagingColor = getComputedStyle(targetElement).getPropertyValue('--lyrics-color-messaging');
 
         // Set the color of the target element to the backgound color
@@ -17,8 +22,12 @@ function changeBackgroundColor() {
         // Find the element you want to change the background color of - 
         var targetDiv = document.querySelector('.L9xhJOJnV2OL5Chm3Jew');
 
-        // Set the background color of the target element to the messaging color 
-        targetDiv.style.backgroundColor = messagingColor;
+        // Check if there is a lyrics element on the page 
+
+        if (!(activeColor == '#ffffff' && inactiveColor == '#000000' && passedColor == '#000000' && messagingColor == '#ffffff')) {
+            // Set the background color of the target element to the messaging color 
+            targetDiv.style.backgroundColor = messagingColor;
+        }
 
         // Set the font family of the target element to none - لو عايز تشيل الفونت بتاع الليركس
         /*
@@ -28,7 +37,9 @@ function changeBackgroundColor() {
     } catch (e) {
         console.log(e);
     }
+
 }
+
 
 // Watch for changes to the DOM tree using a MutationObserver
 var observer = new MutationObserver(function(mutations) {

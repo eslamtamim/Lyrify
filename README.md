@@ -4,7 +4,7 @@ Make the lyrics of the song you are listening not to appear unless it's time to.
 # What, Why, How ?
 
 ## Firstly, What?
-this is simply just a Js script that changes some Css propirties to make the Lyrics page on Spotify more fun.
+this is simply just a Js script that changes some Css properties to make the Lyrics page on Spotify more fun.
 -- atleast for me -
 
 So what does it do ? 
