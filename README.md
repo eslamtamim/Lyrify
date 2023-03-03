@@ -79,8 +79,13 @@ which means that the observer will look for changes to all descendant nodes of t
 not just its immediate children.
 ```
 ## Finally
-this was just a fun thing i did out of curiosity and I won't publish it because to make a google dev acc u need 5$ and i've it but whatever i can spend them on somehing better so if u want to use it just clone it and use it.
-and if you want to remove the font of the lyrics just uncomment line 34 on the `script.js` file and you are good to go.
+this was just a fun thing i did out of curiosity.
+if you want to remove the font of the lyrics just uncomment line 34 on the `script.js` file and you are good to go.
 
 ```javascript
 targetElement.style.fontFamily = 'none'; 
+```
+
+# Where can you Try it
+The only free option i found was Microsoft edge (Here)[https://microsoftedge.microsoft.com/addons/detail/lyrify/gjbdbnbhbeblceodjggpiignmgpdancj]
+i may publish it via Firefox soon so if you using it and want it there ask me to.
