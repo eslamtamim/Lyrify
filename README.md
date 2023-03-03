@@ -87,5 +87,5 @@ targetElement.style.fontFamily = 'none';
 ```
 
 # Where can you Try it
-The only free option i found was Microsoft edge (Here)[https://microsoftedge.microsoft.com/addons/detail/lyrify/gjbdbnbhbeblceodjggpiignmgpdancj]
+The only free option i found was Microsoft edge [Here](https://microsoftedge.microsoft.com/addons/detail/lyrify/gjbdbnbhbeblceodjggpiignmgpdancj)
 i may publish it via Firefox soon so if you using it and want it there ask me to.
